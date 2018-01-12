@@ -22,8 +22,15 @@ Backups and How Tos for MREG sites
 
 
 # For emby user create 
-For iredmail
+. c:\embyusers\EmbyLib.ps1
+Create-EmbyUser -username $args[0] | Out-Null
+Set-EmbyUserPassword -username $args[0] -newPassword $args[1] | Out-Null
+$args[0] >> 'c:\embyusers\file9.txt'
+#$args[1] >> 'c:\embyusers\file9.txt'
+
+# For iredmail
 Open ports at cloud level
+25 110 465 143...
 
 # For subdoains
 Edit /opt/bitnami/acpache/conf/bitnami/bitnami.conf
