@@ -24,8 +24,10 @@ Backups and How Tos for MREG sites
 # For emby user create 
 For iredmail
 Open ports at cloud level
-For subdoains
+
+# For subdoains
 Edit /opt/bitnami/acpache/conf/bitnami/bitnami.conf
+
 <VirtualHost _default_:80>
   DocumentRoot "/opt/bitnami/apps/wordpress/htdocs/kexow"
   ServerName kexow.kexow.com
