@@ -31,8 +31,11 @@ $args[0] >> 'c:\embyusers\file9.txt'
 # For iredmail
 Open ports at cloud level
 25 110 465 143...
+# bitnami wordpress multisite
 
-# For subdoains
+
+
+# For subdomains on wordpress
 Edit /opt/bitnami/acpache/conf/bitnami/bitnami.conf
 
 <VirtualHost _default_:80>
