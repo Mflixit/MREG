@@ -1,3 +1,19 @@
+generate and save key, convert with puttygen
+cloud launch
+attach IP
+registar- set IP in DNS table
+
+
+login ssh via web interface
+run following command to get wp login credentials
+
+sudo cat /opt/bitnami/var/data/bitnami_credentials/credentials
+
+
+
+
+
+
 # MREG
 Backups and How Tos for MREG sites
 
