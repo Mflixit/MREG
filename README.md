@@ -10,6 +10,19 @@ run following command to get wp login credentials
 sudo cat /opt/bitnami/var/data/bitnami_credentials/credentials
 
 
+also get rid of banner logo with the following command
+
+
+Generate And Install A Let's Encrypt SSL Certificate For A Bitnami Application
+A little outdated, but you can figure it out.
+
+enable multisite
+
+create new profle in notepadd++ (after manually installing the ftp plugin)
+ edit /opt/btnami/apps/wordpress/htdocs/wp-config.php and add the following piece of code at the top of the file, just below the <?php header:
+
+define('WP_ALLOW_MULTISITE', true);
+
 
 
 
