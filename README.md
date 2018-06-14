@@ -1,3 +1,14 @@
+iredmail
+allow iframe
+SSL....generate and install certs
+auto-Login php
+SMTP
+
+
+
+
+
+
 generate and save key, convert with puttygen
 cloud launch
 attach IP
