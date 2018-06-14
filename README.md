@@ -3,6 +3,8 @@ allow iframe
 SSL....generate and install certs
 auto-Login php
 SMTP
+create user script
+
 
 
 2 computers 1 domain 2 subdomains 2 certs....but different ones, does that matter? it should if we are exploting subdomain readablity of cookies for session data?
